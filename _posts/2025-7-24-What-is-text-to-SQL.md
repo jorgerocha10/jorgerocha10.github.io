@@ -126,4 +126,5 @@ What surprised me most is how much of this relies on concepts we already underst
 
 This is just the beginning. In upcoming posts, I’ll explore each piece in more depth, from building semantic models to how prompts are structured and validated, and share what I learn along the way. My goal is to better understand how to make data truly AI-ready, and I hope you’ll follow along. If you’re curious about this space or already exploring it yourself, let’s learn together.
 
+Cheers,
 Jorge Rocha
