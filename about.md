@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="/images/jorge-rocha.jpg" alt="Jorge Rocha" style="max-width: 200px; border-radius: 50%; margin-bottom: 20px;">
+
 My name is Jorge Rocha. I'm a data modeler with over 8 years of experience across a range of industries including retail, oil and gas, power, food manufacturing, and consulting. I specialize in designing efficient, scalable data models that help businesses turn raw data into actionable insights.
 
 I have a deep passion for building creative solutions using both code and hardware. Whether it’s automating workflows, visualizing complex systems, prototyping with microcontrollers, or tinkering with DIY electronics projects, I enjoy solving problems at the intersection of data and technology. 
