@@ -38,7 +38,7 @@ Think of it like introducing the Text-To-SQL system to your data for the first t
 
 ### What it does:
 
-Before WrenAI can do anything useful, you help it understand your data by defining semantics—descriptions, meanings, and relationships.
+Before WrenAI can do anything useful, you help it understand your data by defining semantics - descriptions, meanings, and relationships.
 
 - You describe what fields mean (e.g., `order_total` = total sales).
 - It creates a **semantic model** to guide its understanding.
@@ -64,7 +64,7 @@ It’s like building a memory of your data that the AI can quickly reference.
 
 ### What it does:
 
-When a user asks a question, WrenAI looks through its vector memory to find the most relevant context—like tables, fields, and relationships.
+When a user asks a question, WrenAI looks through its vector memory to find the most relevant context - like tables, fields, and relationships.
 
 - **Retrieval Service**: Matches the question to the right metadata
 
@@ -82,7 +82,7 @@ Now WrenAI combines the user’s question with relevant context and forms a prom
 - **LLM**: Generates the SQL query
 - **Output Processing**: Validates the query to make sure it works
 
-This is the smart part—translating natural language into working SQL.
+This is the smart part — translating natural language into working SQL.
 
 ---
 
@@ -108,7 +108,7 @@ Once the SQL is ready, it has to run somewhere. That’s the job of the Wren Eng
 - **Core**: Executes the SQL against the connected data source
 - **Metastore**: Stores schema and semantic models for reuse
 
-This is the engine room—quietly powering the results behind the scenes.
+This is the engine room — quietly powering the results behind the scenes.
 
 ---
 
@@ -120,7 +120,7 @@ This is the engine room—quietly powering the results behind the scenes.
 
 ## Wrapping Up
 
-Exploring WrenAI gave me a glimpse into what the future of analytics could look like: a world where anyone in a company can ask a question and get a useful answer instantly, without waiting days for a report or dashboard. Under the hood, it's a blend of old-school data modeling, modern indexing, and generative AI—all working together.
+Exploring WrenAI gave me a glimpse into what the future of analytics could look like: a world where anyone in a company can ask a question and get a useful answer instantly, without waiting days for a report or dashboard. Under the hood, it's a blend of old-school data modeling, modern indexing, and generative AI — all working together.
 
 What surprised me most is how much of this relies on concepts we already understand as data professionals: schemas, semantics, metadata, and SQL. The magic is in how they're combined.
 
