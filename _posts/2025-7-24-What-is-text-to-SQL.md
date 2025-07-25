@@ -25,12 +25,12 @@ Let’s start by breaking down the architecture diagram above.
 
 ### What it does:
 
-This is where WrenAI connects to your actual data—databases, warehouses, etc.
+This is where a Text-To-SQL system (e.g. WrenAI) connects to your actual data - databases, data warehouses, and more.
 
 - **Connect**: Add a data source (like Synapse Analytics, Snowflake, Postgres, etc.)
 - **Reads Metadata**: Grabs table names, column types, and other schema details
 
-Think of it like introducing the GenBI system to your data for the first time.
+Think of it like introducing the Text-To-SQL system to your data for the first time.
 
 ---
 
