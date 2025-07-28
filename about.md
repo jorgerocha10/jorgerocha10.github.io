@@ -14,6 +14,3 @@ I have a deep passion for building creative solutions using both code and hardwa
 
 Outside of work, I love spending time with my wife and two boys, especially outdoors. Whether we’re hiking, biking, or just exploring new parks, being in nature with my family is one of my favorite ways to recharge.
 
-### Contact me
-
-[jorgerocha_10@hotmail.com](mailto:jorgerocha_10@hotmail.com)
