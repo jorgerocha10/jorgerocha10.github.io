@@ -204,6 +204,71 @@ INNER JOIN customers ON orders.customer_id = customers.customer_id
 GROUP BY customers.region;
 ```
 
+**Full code:**
+
+```python
+from langchain_openai import OpenAIEmbeddings, OpenAI
+from langchain_community.vectorstores import FAISS
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.prompts import PromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+import os
+
+# Set your API key
+os.environ["OPENAI_API_KEY"] = "YOUR-OPENAI-API-KEY"
+
+# Example schema as plain text
+schema_docs = """
+Table: orders
+Columns: order_id, customer_id, order_date, total_amount
+
+Table: customers
+Columns: customer_id, name, email, region
+"""
+
+# Step 1: Split schema into chunks
+splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=0)
+docs = splitter.create_documents([schema_docs])
+
+# Step 2: Embed and create FAISS vector store
+embeddings = OpenAIEmbeddings()
+vectorstore = FAISS.from_documents(docs, embeddings)
+retriever = vectorstore.as_retriever()
+
+# Step 3: Prompt template
+prompt = PromptTemplate(
+    input_variables=["context", "question"],
+    template="""
+You are an AI assistant that writes SQL queries based on a database schema.
+
+Schema:
+{context}
+
+Question:
+{question}
+
+SQL Query:
+"""
+)
+
+# Step 4: Define components for LCEL chain
+llm = OpenAI(temperature=0)
+
+# Create retriever -> prompt -> llm pipeline
+retrieval_chain = (
+    {"context": retriever, "question": RunnablePassthrough()}
+    | prompt
+    | llm
+)
+
+# Step 5: Invoke the LCEL chain
+question = "What’s the total sales by region?"
+response = retrieval_chain.invoke(question)
+
+# Output result
+print(response)
+```
+
 ✅ Why this matters: This is the end-to-end RAG pipeline, no manual SQL needed, just your schema and a natural language question.
 
 ---
