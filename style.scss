@@ -283,22 +283,6 @@ footer {
   text-align: center;
 }
 
-/* Dark theme for code blocks */
-pre, code {
-  background-color: #1e1e1e; /* VS Code-like dark */
-  color: #d4d4d4;            /* Light text */
-  font-family: Consolas, Monaco, 'Courier New', monospace;
-  border-radius: 8px;
-  padding: 1em;
-  overflow-x: auto;
-  font-size: 0.9rem;
-}
-
-pre code {
-  background-color: transparent; /* Avoid double background */
-}
-
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
