@@ -80,7 +80,7 @@ pip install langchain langchain-openai langchain-community faiss-cpu
 
 You’ll notice we're using both `langchain_openai` and `langchain_community`, which reflects the recent modular split in LangChain v0.2+.
 
-```python
+<pre>```python
 from langchain_openai import OpenAIEmbeddings, OpenAI
 from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
@@ -90,7 +90,7 @@ import os
 
 # Set your OpenAI API key
 os.environ["OPENAI_API_KEY"] = "sk-..."  # Use env vars or secret manager in production
-```
+```</pre>
 
 ✅ Why this matters: We’re pulling in everything needed to load text data, chunk it, embed it, store it in a retriever, build a prompt, and finally generate SQL using OpenAI.
 
