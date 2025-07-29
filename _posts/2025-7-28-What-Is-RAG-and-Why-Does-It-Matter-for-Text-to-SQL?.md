@@ -219,3 +219,7 @@ This system retrieves relevant schema text (**R**), augments the prompt with it 
 This RAG-powered approach is very simple, but still close to how real-world analysts or engineers operate, they consult the schema, then write SQL. LLMs can now do the same.
 
 By bringing together semantic retrieval and generative reasoning, RAG systems give us the best of both worlds: precision and language flexibility. And as tools like [LangChain](https://python.langchain.com/) mature, building these pipelines is becoming not just possible, but practical.
+
+Cheers,
+
+Jorge Rocha
