@@ -4,6 +4,8 @@ layout: post
 
 title: What Is Pydantic and Why Should You Use It?
 
+date: 2026-02-28
+
 ---
 
 If you've been building Python applications, especially anything involving APIs or AI, you've probably run into a frustrating problem: bad data sneaking into your code.
