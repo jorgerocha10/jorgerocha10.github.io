@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disposable Pixels: The Future of AI-Generated Data Visualization
+title: "Disposable Pixels: The Future of AI-Generated Data Visualization"
 ---
 
 ## A Different Kind of Chart
