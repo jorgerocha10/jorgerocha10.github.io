@@ -5,7 +5,7 @@ title: Disposable Pixels: The Future of AI-Generated Data Visualization
 
 ## A Different Kind of Chart
 
-Remember the first time you realized you could pass structured data to an image model and get back something that actually looked like a chart? No Matplotlib. No Plotly. No Streamlit server running somewhere. Just a prompt and an image.
+Remember the first time you realized you could pass structured data to an image model and get back something that looked like a chart? No Matplotlib. No Plotly. No Streamlit server running somewhere. Just a prompt and an image.
 
 That moment surprised me. Not because the chart was perfect, but because it was recognizable. It had the right shape, the right labels, the right proportions. It felt like something shifted.
 
@@ -119,7 +119,7 @@ Push further. Two or three metrics, a chart, a headline insight. This is closer 
     {
       "label": "Top Region",
       "value": "West",
-      "change": "$5.7M — 44% of total",
+      "change": "$5.7M - 44% of total",
       "direction": "neutral",
       "color": "teal"
     },
@@ -198,13 +198,10 @@ This is not a Power BI replacement. It's not even trying to be. The moment you n
 
 Where it does fit:
 
-Conversational analytics. Inside a chat interface, someone asks "show me X" and you return a visual answer, not just a table.
-
-AI assistants that need to return something visual, not just text. A chart is more persuasive than a table.
-
-Ad hoc stakeholder snapshots that live in a Slack message or email. Disposable. Quick. Done.
-
-Rapid prototyping. What would this dashboard look like? Generate a few variations and see which resonates.
+- Conversational analytics. Inside a chat interface, someone asks "show me X" and you return a visual answer, not just a table.
+- AI assistants that need to return something visual, not just text. A chart is more persuasive than a table.
+- Ad hoc stakeholder snapshots that live in a Slack message or email. Disposable. Quick. Done.
+- Rapid prototyping. What would this dashboard look like? Generate a few variations and see which resonates.
 
 Think of it as the difference between a printed snapshot and a live dashboard. Both have a place. One is for communication. The other is for exploration.
 
@@ -218,13 +215,10 @@ But look at the trajectory. The jump from the original Nano Banana to Pro was si
 
 What becomes possible when the model is reliably accurate on data?
 
-Dynamic chart generation inside chat interfaces. Ask a question, get a visual answer, no frontend required. Just a conversation.
-
-Slide deck generation from a query result. Pass a structured JSON payload, get a properly formatted presentation slide back. Every slide uses the same brand colors, the same font, the same hierarchy.
-
-Embedded visualization in AI agents. Your analytics agent doesn't just return text. It returns a rendered artifact. Visual, immediate, no rendering server needed.
-
-Localized reporting. Nano Banana Pro already supports text rendering in multiple languages, meaning you could generate a chart with French labels for Quebec stakeholders and English labels for everyone else, from the same data, in the same pipeline.
+- Dynamic chart generation inside chat interfaces. Ask a question, get a visual answer, no frontend required. Just a conversation.
+- Slide deck generation from a query result. Pass a structured JSON payload, get a properly formatted presentation slide back. Every slide uses the same brand colors, the same font, the same hierarchy.
+- Embedded visualization in AI agents. Your analytics agent doesn't just return text. It returns a rendered artifact. Visual, immediate, no rendering server needed.
+- Localized reporting. Nano Banana Pro already supports text rendering in multiple languages, meaning you could generate a chart with French labels for Quebec stakeholders and English labels for everyone else, from the same data, in the same pipeline.
 
 The piece that still needs to mature is factual reliability on numbers. When that's solved, and based on the current pace it will be, the use case becomes much stronger.
 
