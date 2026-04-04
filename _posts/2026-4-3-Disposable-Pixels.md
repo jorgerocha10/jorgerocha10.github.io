@@ -58,7 +58,7 @@ This is the clearest demonstration of the core idea.
 }
 ```
 
-![Monthly Revenue Bar Chart](/images/disposable-pixels-example1.jpg)
+![Monthly Revenue Bar Chart](/images/disposable-pixels-example2.jpg)
 
 What it got right: proportions, labels, readability. The bars scale correctly relative to each other. The font is clean. The teal colors are exactly what I asked for. What it got wrong: minimal. This is a solid example.
 
@@ -93,7 +93,7 @@ Now let's push into something less traditional. A single "slide" style image: on
 }
 ```
 
-![KPI Card - Total Revenue March 2025](/images/disposable-pixels-example2.jpg)
+![KPI Card - Total Revenue March 2025](/images/disposable-pixels-example4.jpg)
 
 This is where you start to see versatility. The model isn't just drawing bars anymore. It's composing a layout. Numbers, color, hierarchy, whitespace. It works.
 
@@ -146,7 +146,7 @@ Push further. Two or three metrics, a chart, a headline insight. This is closer 
 }
 ```
 
-![Q1 2025 Sales Executive Summary Panel](/images/disposable-pixels-example3.jpg)
+![Q1 2025 Sales Executive Summary Panel](/images/disposable-pixels-example1.jpg)
 
 This one is impressive. You've got text, numbers, metrics, a chart, color coding, all composed into a coherent visual. The model handles it well. Not perfect, but compelling.
 
@@ -182,7 +182,7 @@ Here's the honest part. Not everything lands perfectly.
 }
 ```
 
-![Weekly Revenue by Product Category - Complex Multi-Line Chart](/images/disposable-pixels-example4.jpg)
+![Weekly Revenue by Product Category - Complex Multi-Line Chart](/images/disposable-pixels-example3.jpg)
 
 The axis labels got crowded. Some of the data point labels overlap. The colors are distinct, but the chart feels busy. This is the moment where you realize the model is still learning. It can handle complexity, but it doesn't always choose simplicity when simple would be better.
 
